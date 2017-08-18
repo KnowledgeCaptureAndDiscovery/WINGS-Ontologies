@@ -1,0 +1,607 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.2-SNAPSHOT), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.wings-workflows.org/ontology/component.owl" ],
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl"
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 4,
+    "objectPropertyCount" : 3,
+    "datatypePropertyCount" : 13,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#ComponentArgument",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ComponentArgument",
+      "undefined" : "ComponentArgument"
+    },
+    "subClasses" : [ "16", "10" ],
+    "comment" : {
+      "undefined" : "The WINGS ComponentArgument is a WINGS component class that represents a componentArgument in the  WINGS Workflow template specification."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#Component",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "instances" : 0,
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n   \t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\t\t\n\t\t\t\t\t\t\t\t library.owl#> .\t\n\n    component_library:splitClass\n\t      \ta        owl:Class ;\n\t        rdfs:subClassOf  \n\t        \twings_component:Component .\n    ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Component",
+      "undefined" : "Component"
+    },
+    "comment" : {
+      "undefined" : "The WINGS Component is a WINGS component class that represents a component of WINGS Workflow template specification."
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#ParameterArgument",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "instances" : 0,
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix component_library: <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\t\t\n\t\t\t\t\t\t\t   library.owl#> .\t\n\n\tcomponent_library:count3_LetterInput\n\t\t\ta                      wings_component:ParameterArgument ;\n\t\t\twings_component:hasArgumentID      \"LetterInput\" ;\n\t\t\twings_component:hasArgumentName    \"-p3\" ;\n\t\t\twings_component:hasDimensionality  0 ;\n\t\t\twings_component:hasValue           \"\" .\n    ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ParameterArgument",
+      "undefined" : "ParameterArgument"
+    },
+    "comment" : {
+      "undefined" : "The WINGS ParameterArgument is a WINGS component class that represents a parameter based argument and it has the Component argument as a subclass."
+    },
+    "id" : "16",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#DataArgument",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "instances" : 0,
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n\t@prefix data_ontology:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/data/ontology.owl#> .\n    @prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\t\t\n\t\t\t\t\t\t\t\t library.owl#> .\t\n\n\tcomponent_library:Convert_OutputFile\n\t        a                      data_ontology:TextFile , wings_component:DataArgument ;\n\t        wings_component:hasArgumentID      \"OutputFile\" ;\n\t        wings_component:hasArgumentName    \"-o1\" ;\n\t        wings_component:hasDimensionality  0 .\n\n    ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DataArgument",
+      "undefined" : "DataArgument"
+    },
+    "comment" : {
+      "undefined" : "The WINGS DataArgument is a WINGS component class that represents a data based argument and it has the Component argument as a subclass."
+    },
+    "id" : "10",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasDimensionSizes",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasDimensionSizes",
+      "undefined" : "hasDimensionSizes"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The WINGS hasDimensionSizes is a WINGS workflow component data property that represents a WingsWorkflowComponentArgument having dimensional sizes (specified as a string) for its componentArgument."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasDocumentation",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "8",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\n\t\t\t\t\t\t\t\t library.owl#> .\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\n\tcomponent_library:SingleWordCount  a        component_library:SingleWordCountClass ;\n\t        wings_component:hasDocumentation  \"<font face=\\\"null\\\">This component counts occurrences of a single word in a \n\t        \t\t\t\t\t\t\t\t   file.</font>\" ;  \t\t\t\t\t\t\t\t   \n\t       \twings_component:hasInput          component_library:SingleWordCount_number , component_library:SingleWordCount_word \n\t       \t\t\t\t\t\t\t\t\t  ,component_library:SingleWordCount_sampleInputFile1 ;\n\t        wings_component:hasOutput         component_library:SingleWordCount_outputCountFile ;\n\t        wings_component:isConcrete        false .\n         ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDocumentation",
+      "undefined" : "hasDocumentation"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The WINGS hasDocumentation is a WINGS workflow component data property that represents a WingsWorkflowComponent having a documentation for its component."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasOutput",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "10",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\n\t\t\t\t\t\t\t\t library.owl#> .\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\n\tcomponent_library:SingleWordCount  a        component_library:SingleWordCountClass ;\n\t        wings_component:hasDocumentation  \"<font face=\\\"null\\\">This component counts occurrences of a single word in a \n\t        \t\t\t\t\t\t\t\t   file.</font>\" ;  \t\t\t\t\t\t\t\t   \n\t       \twings_component:hasInput          component_library:SingleWordCount_number , component_library:SingleWordCount_word \n\t       \t\t\t\t\t\t\t\t\t  ,component_library:SingleWordCount_sampleInputFile1 ;\n\t        wings_component:hasOutput         component_library:SingleWordCount_outputCountFile ;\n\t        wings_component:isConcrete        false .\n         ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasOutput",
+      "undefined" : "hasOutput"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The WINGS hasOutput is a WINGS workflow component object property that represents a connection between a WingsWorkflowComponent and the component's data argument i.e. a WingsWorkflowComponent hasOutput a WingsWorkflowDataArgument."
+    },
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasRule",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "15",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\n\t\t\t\t\t\t\t\t library.owl#> .\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix resource:   <http://www.wings-workflows.org/ontology/resource.owl#> .\n\n\tcomponent_library:breakDoc  a                    component_library:breakDocClass ;\n\t        wings_component:hasInput               component_library:breakDoc_nToBreakInto , component_library:breakDoc_InputFile1 ;\n\t        wings_component:hasLocation            \"/opt/wings/storage/default/users/tirth/TestingDomain/code/library/breakDoc\" ;\n\t        wings_component:hasOutput              component_library:breakDoc_OutputFiles ;\n\t        wings_component:hasRule                \"[ SetOutputCollectionSize: (?c rdf:type acdom:breakDocClass) (?c ac:hasInput ?idv) (?idv ac:hasArgumentID 'InputFile1') (?c ac:hasInput ?ipv) (?ipv ac:hasArgumentID 'nToBreakInto') (?c ac:hasOutput ?odv) (?odv ac:hasArgumentID 'OutputFiles') (?ipv ac:hasValue ?num) -> (?odv ac:hasDimensionSizes ?num) print(Breaking ?idv into ?num files) ]\" ;\n\t        wings_component:isConcrete             true ;\n\t        resource:hasHardwareDependency  [ a                      resource:HardwareDependency ;\n\t                                     resource:needs64bit         false ;\n\t                                     resource:requiresMemoryGB   \"0.0\"^^xsd:float ;\n\t                                     resource:requiresStorageGB  \"0.0\"^^xsd:float\n\t                                   ] .\n\t         ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasRule",
+      "undefined" : "hasRule"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The WINGS hasRule is a WINGS workflow component data property that represents a WingsWorkflowComponent having a rule (specified as a block of code in strings) for its component."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasInput",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "1",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\n\t\t\t\t\t\t\t\t library.owl#> .\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\n\tcomponent_library:SingleWordCount  a        component_library:SingleWordCountClass ;\n\t        wings_component:hasDocumentation  \"<font face=\\\"null\\\">This component counts occurrences of a single word in a \n\t        \t\t\t\t\t\t\t\t   file.</font>\" ;  \t\t\t\t\t\t\t\t   \n\t       \twings_component:hasInput          component_library:SingleWordCount_number , component_library:SingleWordCount_word \n\t       \t\t\t\t\t\t\t\t\t  ,component_library:SingleWordCount_sampleInputFile1 ;\n\t        wings_component:hasOutput         component_library:SingleWordCount_outputCountFile ;\n\t        wings_component:isConcrete        false .\n         ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasInput",
+      "undefined" : "hasInput"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The WINGS hasInput is a WINGS workflow component object property that represents a connection between a WingsWorkflowComponent and the component's argument i.e. a WingsWorkflowComponent hasInput a WingsWorkflowComponentArgument."
+    },
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasArgumentIndex",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasArgumentIndex",
+      "undefined" : "hasArgumentIndex"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The WINGS hasArgumentIndex is a WINGS workflow component data property that represents a WingsWorkflowComponent having a argumentIndex (specified as a number(int) eg. 0,1,2,...) for its component."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#isInvalid",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "isInvalid",
+      "undefined" : "isInvalid"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The WINGS isInvalid is a WINGS workflow component data property that represents a WingsWorkflowComponent is either valid or not."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasArgumentID",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "18",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n    @prefix ontology:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/data/ontology.owl#> .\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\n\t\t\t\t\t\t\t\t library.owl#> .\t\n\n    component_library:spacing_OutputFile1\n\t        a                      ontology:TextFile , wings_component:DataArgument ;\n\t        wings_component:hasArgumentID      \"OutputFile1\" ;\n\t        wings_component:hasArgumentName    \"-o1\" ;\n\t        wings_component:hasDimensionality  0 .\n     ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasArgumentID",
+      "undefined" : "hasArgumentID"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The WINGS hasArgumentID is a WINGS workflow component data property that represents a WingsWorkflowComponent having a argumentID (specified as string) for its component."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#isConcrete",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "25",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n   \t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\t\t\n\t\t\t\t\t\t\t\t library.owl#> .\t\n\n\tcomponent_library:TRIALCONCR  a       component_library:TRIALCONCRClass ;\n\t        wings_component:hasInput    component_library:TRIALCONCR_InputWord , component_library:TRIALCONCR_InputFile ;\n\t        wings_component:hasOutput   component_library:TRIALCONCR_OutputFile ;\n\t        wings_component:isConcrete  false .\n    ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isConcrete",
+      "undefined" : "isConcrete"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The WINGS isConcrete is a WINGS workflow component data property that represents a WingsWorkflowComponent is abstract or not. If it is abstract then the value is false, else its true. (range is boolean) "
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasValue",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "27",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n   \t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\t\t\n\t\t\t\t\t\t\t\t library.owl#> .\t\n\n    component_library:ConcrCounterNewerOne_NumberInput\n\t        a                      wings_component:ParameterArgument ;\n\t        wings_component:hasArgumentID      \"NumberInput\" ;\n\t        wings_component:hasArgumentName    \"-p1\" ;\n\t        wings_component:hasDimensionality  0 ;\n\t        wings_component:hasValue           0 .\n\n    ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasValue",
+      "undefined" : "hasValue"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The WINGS hasValue is a WINGS workflow component data property that represents a WingsWorkflowComponentParameterArgument having a value for the parameter."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasArgumentName",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "3",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n    @prefix ontology:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/data/ontology.owl#> .\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\t\t\n\t\t\t\t\t\t\t\t library.owl#> .\t\n\n    component_library:spacing_OutputFile1\n\t        a                      ontology:TextFile , wings_component:DataArgument ;\n\t        wings_component:hasArgumentID      \"OutputFile1\" ;\n\t        wings_component:hasArgumentName    \"-o1\" ;\n\t        wings_component:hasDimensionality  0 .\n     ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasArgumentName",
+      "undefined" : "hasArgumentName"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The WINGS hasArgumentName is a WINGS workflow component data property that represents a WingsWorkflowComponent having a argumentName (specified as a string) for its component."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasArgument",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasArgument",
+      "undefined" : "hasArgument"
+    },
+    "domain" : "7",
+    "subproperty" : [ "17", "9" ],
+    "comment" : {
+      "undefined" : "The WINGS hasArgument is a WINGS workflow component object property that represents a connection between a WingsWorkflowComponent and the component's argument i.e. a WingsWorkflowComponent hasArgument a WingsWorkflowComponentArgument."
+    },
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasBindingID",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasBindingID",
+      "undefined" : "hasBindingID"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The WINGS hasBindingID is a WINGS workflow component data property that represents a WingsWorkflowComponentArgument having a ID (specified as a string) for its componentArgument."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "29"
+  }, {
+    "range" : "1",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "1",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasLocation",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "13",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\n\t\t\t\t\t\t\t\t library.owl#> .\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix resource:   <http://www.wings-workflows.org/ontology/resource.owl#> .\n\n\tcomponent_library:htmltotext  a                  component_library:htmltotextClass ;\n\t        wings_component:hasDocumentation       \"\" ;\n\t        wings_component:hasInput               component_library:htmltotext_InputFormattedFile ;\n\t        wings_component:hasLocation            \"/opt/wings/storage/default/users/tirth/TestingDomain/code/library/htmltotext\" ;\n\t        wings_component:hasOutput              component_library:htmltotext_OutputTextFile ;\n\t        wings_component:isConcrete             true ;\n\t        resource:hasHardwareDependency  [ a                      resource:HardwareDependency ;\n\t                                     resource:needs64bit         false ;\n\t                                     resource:requiresMemoryGB   \"0.0\"^^xsd:float ;\n\t                                     resource:requiresStorageGB  \"0.0\"^^xsd:float\n\t                                   ] .\n         ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasLocation",
+      "undefined" : "hasLocation"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The WINGS hasLocation is a WINGS workflow component data property that represents a WingsWorkflowComponent having a location (specified as a string) for its component."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasDimensionIndexProperties",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasDimensionIndexProperties",
+      "undefined" : "hasDimensionIndexProperties"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The WINGS hasDimensionIndexProperties is a WINGS workflow component data property that represents a WingsWorkflowComponentArgument having dimensional properties (specified as a string) for its componentArgument."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.wings-workflows.org/ontology/component.owl#hasDimensionality",
+    "baseIri" : "http://www.wings-workflows.org/ontology/component.owl",
+    "range" : "12",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "\n\n\t@prefix wings_component:   <http://www.wings-workflows.org/ontology/component.owl#> .\n\t@prefix component_library:   <http://ontosoft.isi.edu:8080/wings-portal/export/users/tirth/TestingDomain/components/\t\t\n\t\t\t\t\t\t\t\t library.owl#> .\t\n\n    component_library:ConcrCounterNewerOne_NumberInput\n\t        a                      wings_component:ParameterArgument ;\n\t        wings_component:hasArgumentID      \"NumberInput\" ;\n\t        wings_component:hasArgumentName    \"-p1\" ;\n\t        wings_component:hasDimensionality  0 ;\n\t        wings_component:hasValue           0 .\n\n    ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasDimensionality",
+      "undefined" : "hasDimensionality"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The WINGS hasDimensionality is a WINGS workflow component data property that represents a WingsWorkflowComponentArgument having dimensionality (specficied as a number(int) 0,1)."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "34"
+  } ]
+}
